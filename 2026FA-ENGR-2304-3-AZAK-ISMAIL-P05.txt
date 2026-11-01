@@ -1,0 +1,20 @@
+/*
+2026FA-ENGR-2304-3-AZAK-ISMAIL-P05
+*/
+#include <Adafruit_LiquidCrystal.h>
+
+int seconds = 0;
+
+Adafruit_LiquidCrystal lcd_1(0);
+
+void setup()
+{
+  lcd_1.begin(16, 2);
+
+  lcd_1.print("hello world");
+}
+
+void loop()
+{
+  delay(10);
+}
